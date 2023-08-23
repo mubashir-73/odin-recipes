@@ -1,6 +1,32 @@
 body {
     background-color: rgb(55, 238, 137);
+    font-family: Verdana,sans-serif;
 }
 h1{
-    
+    font-weight: bolder;
+}
+.pic{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+.desc{
+    background-color: rgb(87, 182, 9);
+    font-family: sans-serif, Verdana;
+    color: rgb(105, 9, 2);
+}
+.para1{
+    color: rgb(6, 136, 49);
+}
+.para2{
+    color: rgb(1, 134, 1);
+}
+.ingredients{
+    color: rgb(1, 134, 1);
+}
+.button{
+    background-color:yellowgreen;
+}
+.Steps{
+    color: rgb(1, 134, 1); 
 }
