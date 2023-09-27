@@ -1,17 +1,39 @@
 body {
-    background-color: rgb(55, 238, 137);
+    background-color: rgb(158, 24, 6);
     font-family: Verdana,sans-serif;
 }
+.title{
+    margin: auto;
+    padding:20px; 
+    padding-right: 10px;
+    padding-left: 10px;
+    border:7px;
+    border-top-style:dashed;
+    border-bottom-style: dashed;
+    border-left-style:double ;
+    border-right-style:double;
+    border-color:  rgb(67, 124, 11);
+    width:2000px;
+    text-align: center;
+   }
+
+    
+
 h1{
     font-weight: bolder;
+    color: rgb(15, 228, 192);
 }
 .pic{
-    width: 300px;
-    height: auto;
-    text-align: center;
+    margin:auto;
+    display:block;
+    margin-top: 40px;
+    margin-bottom:40px;
+    width: 700px;
+    height:500px;
+    
 }
 .desc{
-    background-color: rgb(87, 182, 9);
+    background-color: rgb(91, 179, 28);
     font-family: sans-serif, Verdana;
     color: rgb(105, 9, 2);
 }
@@ -24,9 +46,55 @@ h1{
 .ingredients{
     color: rgb(1, 134, 1);
 }
-.button{
-    background-color:yellowgreen;
+.buttoncontainer{
+    margin:auto;
+    display:block;  
+    width:1100px;
+    padding: 100px;
+    border:5px;
+    border-style: double;
+    border-color: rgb(67, 124, 11);
 }
 .Steps{
     color: rgb(1, 134, 1); 
+}
+.one{
+    background-color:  rgb(67, 124, 11);
+    margin: 100px;
+    padding:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    width:220px;
+    color:rgb(15, 228, 192);
+    
+}
+.two{
+    background-color:  rgb(67, 124, 11);
+    margin: 100px;
+    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    width:220px;
+    color:rgb(15, 228, 192);
+}
+.three{
+    background-color: rgb(67, 124, 11);
+    margin: 100px;
+    padding:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    width:220px;
+    color:rgb(15, 228, 192);
+}
+.one:hover{
+    background-color:rgb(186, 27, 207) ;
+}
+.two:hover{
+    background-color:rgb(186, 27, 207) ;
+}
+.three:hover{
+    background-color:rgb(186, 27, 207) ;
 }
